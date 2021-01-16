@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Style The hr*/
+hr {
+    width: 100%;
+    border-radius: 20px;
+    margin: 0;
+    height: 10px;
+}
+
+/*Style the marquee*/
+.marq2 {
+    background-color: darkgreen;
+    color: white;
+}
+
+/*Style Header 2*/
+h2 {
+    padding-top: 20px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: green;
+}
+
+/*Style The Division third-p*/
+.third-p {
+    justify-content: left;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.trc {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+.trc .trc {
+    font-size: 50px;
+    padding: 50px 0 50px 0;
+}
+.col-sm-3 h4 {
+    display: flex;
+    box-sizing: border-box;
+}
+
+/*Style The Top Menu */
+.topMenu {
+    background-color: darkgreen;
+}
+.active {
+    background-color: grey;
+}

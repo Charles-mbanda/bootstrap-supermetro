@@ -1,0 +1,59 @@
+/*Style The Body*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Style the hr*/
+.hr1 {
+    height: 2px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*Style The row*/
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+/*Style the Images */
+.img {
+    margin: 60px 0 10px 120px;
+ }
+.sm3-img {
+    margin: 0 0 5px 0;
+}
+
+/*Style The Top Menu */
+.topMenu {
+    background-color: darkgreen;
+}
+.active {
+    background-color: grey;
+}
+
+/*Style The Pages*/
+.pagination {
+    display: inline-block;
+    margin: 10px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 12px 24px;
+    margin: 1px;
+    text-decoration: none;
+    background-color: darkgreen;
+}
+.pagination a.active {
+    background-color: orangered;
+    color: white;
+}
+.pagination a:hover:not(.active) {background-color: honeydew;}
+
+/*Style The Marquee */
+.marq {
+    background-color: darkgreen;
+    color: white;
+}

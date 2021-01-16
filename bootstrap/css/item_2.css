@@ -1,0 +1,77 @@
+/* Style the Body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+/* Style the Header 1 */
+h1 {
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 75px;
+    font-family: sans-serif;text-align: center;
+}
+
+/* Style the hr */
+hr {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    height: 5px;
+}
+
+/* Style the marquee */
+.marq {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* style the header 1 */
+.item2 {
+    padding-bottom: 100px;
+}
+
+/* style the about us */
+.abt {
+    margin: -20px 0 40px 40px;
+}
+
+/* style the header 2 */
+h2 {
+    font-size: 40px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/*Style The Top Menu */
+.topMenu {
+    background-color: darkgreen;
+}
+.active {
+    background-color: grey;
+}
+
+/*Style The Pages*/
+.pagination {
+    display: inline-block;
+    margin: 10px;
+}
+.center {
+    text-align: center;
+}
+.pagination a {
+    color: blue;
+    float: left;
+    padding: 4px 16px;
+    margin: 1px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #007bff;
+    color: white;
+}
+.pagination a:hover:not(.active) {background-color: honeydew;}
+

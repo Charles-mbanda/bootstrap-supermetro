@@ -1,0 +1,79 @@
+h2  {
+    padding: 0;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.forms {
+    width: 100%;
+    display: flex;
+}
+.register {
+    width: 100%;
+    padding: 10px;
+}
+form {
+    margin: 0;
+}
+
+label {
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+input[type=text], input[type=number],input[type=email], input[type=date], input[type=time] {
+    width: 100%;
+    padding: 8px 16px;
+    margin: 4px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: darkgreen;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 8px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.button {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 30%;
+}
+input[type=submit]:hover {
+    background-color: chartreuse;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+p {
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-inside: 4px;
+}
+.ty {
+    width: 65%;
+}
+.fr {
+    width: 50%;
+}
+.to {
+    width: 45%;
+}
+.dp {
+    width: 50%;
+}
+.ps {
+    width: 45%;
+}
+

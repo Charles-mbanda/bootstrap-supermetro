@@ -1,0 +1,126 @@
+/* Style the body */
+body {
+    background-color: white;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+/* Style the hr */
+hr {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 2px;
+}
+
+/* Style the Marquee */
+.marq {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* Styling the Facebook and Twitter Links */
+.SoM {
+    margin-top: 10px;
+    margin-left: 275px;
+}
+
+/* Styling Content Two */
+.row {
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+/* Styling Content One Lists */
+.h2-6 {
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 5px 0 0 0;
+    padding: 10px;
+}
+
+/* Styling Content One Head */
+.bc {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    margin-right: 0;
+    width: 100%;
+    height: 420px;
+    background-size: 100%;
+}
+h2 {
+    color: aqua;
+    padding-top: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 0;
+}
+
+/*Style The Top Menu */
+.topMenu {
+    background-color: darkgreen;
+}
+.active {
+    background-color: grey;
+}
+
+/* style the map */
+.map0 {
+    margin-left: 0;
+}
+
+
+/*Style The Pages*/
+.pagination {
+    display: inline-block;
+    margin: 10px;
+}
+.center {
+    text-align: center;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 4px 16px;
+    margin: 1px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #545b62;
+    color: white;
+}
+.pagination a:hover:not(.active) {background-color: honeydew;}
+
+.col-sm-3 {
+    margin-top: 30px;
+}
+
+/*style the fa*/
+.fa {
+    padding: 10px 20px;
+    font-size: 30px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}

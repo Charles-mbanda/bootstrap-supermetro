@@ -1,0 +1,26 @@
+.nav-1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: darkgreen;
+}
+.listItem {
+    float: left;
+    border-right: 4px solid white;
+    align-content: flex-end;
+    width: 14.285%;
+}
+.listItem .item{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.topMenu {
+    background-color: darkgreen;
+    color: red;
+}
